@@ -13,6 +13,11 @@
 		413837021CF3989500E2D695 /* CaptureFlagProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 413837001CF3989500E2D695 /* CaptureFlagProject.xcdatamodeld */; };
 		413837041CF3989500E2D695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413837031CF3989500E2D695 /* Assets.xcassets */; };
 		413837071CF3989500E2D695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413837051CF3989500E2D695 /* LaunchScreen.storyboard */; };
+		41558F891CF7453000145E25 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41558F881CF7453000145E25 /* HomeViewController.swift */; };
+		A6E3F3351CF4A11200274076 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6E3F3341CF4A11200274076 /* GoogleService-Info.plist */; };
+		A6E3F3391CF4A32700274076 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A6E3F3381CF4A32700274076 /* Podfile */; };
+		A6E3F33B1CF4A4AB00274076 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E3F33A1CF4A4AB00274076 /* EntryViewController.swift */; };
+		D13179A9D38C0B82DCA37946 /* Pods_CaptureFlagProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF59553F97D4489FFFC32A05 /* Pods_CaptureFlagProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,13 @@
 		413837031CF3989500E2D695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		413837061CF3989500E2D695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		413837081CF3989500E2D695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41558F881CF7453000145E25 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A38A25D9BA0074F4C647C0A8 /* Pods-CaptureFlagProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureFlagProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaptureFlagProject/Pods-CaptureFlagProject.release.xcconfig"; sourceTree = "<group>"; };
+		A6E3F3341CF4A11200274076 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A6E3F3381CF4A32700274076 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A6E3F33A1CF4A4AB00274076 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		BF59553F97D4489FFFC32A05 /* Pods_CaptureFlagProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureFlagProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AAB33988CA33F826D3923F /* Pods-CaptureFlagProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureFlagProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaptureFlagProject/Pods-CaptureFlagProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13179A9D38C0B82DCA37946 /* Pods_CaptureFlagProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +53,12 @@
 		413836ED1CF3989500E2D695 = {
 			isa = PBXGroup;
 			children = (
+				A6E3F3381CF4A32700274076 /* Podfile */,
+				A6E3F3341CF4A11200274076 /* GoogleService-Info.plist */,
 				413836F81CF3989500E2D695 /* CaptureFlagProject */,
 				413836F71CF3989500E2D695 /* Products */,
+				FBF3FDBD5BE41C64B9EFD287 /* Pods */,
+				6B1DFD891F30AD9C929D1E1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				413836F91CF3989500E2D695 /* AppDelegate.swift */,
+				A6E3F33A1CF4A4AB00274076 /* EntryViewController.swift */,
+				41558F881CF7453000145E25 /* HomeViewController.swift */,
 				413836FB1CF3989500E2D695 /* ViewController.swift */,
 				413836FD1CF3989500E2D695 /* Main.storyboard */,
 				413837031CF3989500E2D695 /* Assets.xcassets */,
@@ -67,6 +86,23 @@
 			path = CaptureFlagProject;
 			sourceTree = "<group>";
 		};
+		6B1DFD891F30AD9C929D1E1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF59553F97D4489FFFC32A05 /* Pods_CaptureFlagProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBF3FDBD5BE41C64B9EFD287 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3AAB33988CA33F826D3923F /* Pods-CaptureFlagProject.debug.xcconfig */,
+				A38A25D9BA0074F4C647C0A8 /* Pods-CaptureFlagProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4138370B1CF3989500E2D695 /* Build configuration list for PBXNativeTarget "CaptureFlagProject" */;
 			buildPhases = (
+				ACBDB5FF264FA3B2F5E0454B /* 📦 Check Pods Manifest.lock */,
 				413836F21CF3989500E2D695 /* Sources */,
 				413836F31CF3989500E2D695 /* Frameworks */,
 				413836F41CF3989500E2D695 /* Resources */,
+				B24FF5080CB3F23AE531B932 /* 📦 Embed Pods Frameworks */,
+				502A06A2DAF9104CA5322BB0 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,7 +164,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E3F3391CF4A32700274076 /* Podfile in Resources */,
 				413837071CF3989500E2D695 /* LaunchScreen.storyboard in Resources */,
+				A6E3F3351CF4A11200274076 /* GoogleService-Info.plist in Resources */,
 				413837041CF3989500E2D695 /* Assets.xcassets in Resources */,
 				413836FF1CF3989500E2D695 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +174,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		502A06A2DAF9104CA5322BB0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaptureFlagProject/Pods-CaptureFlagProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACBDB5FF264FA3B2F5E0454B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B24FF5080CB3F23AE531B932 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaptureFlagProject/Pods-CaptureFlagProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		413836F21CF3989500E2D695 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41558F891CF7453000145E25 /* HomeViewController.swift in Sources */,
 				413837021CF3989500E2D695 /* CaptureFlagProject.xcdatamodeld in Sources */,
+				A6E3F33B1CF4A4AB00274076 /* EntryViewController.swift in Sources */,
 				413836FC1CF3989500E2D695 /* ViewController.swift in Sources */,
 				413836FA1CF3989500E2D695 /* AppDelegate.swift in Sources */,
 			);
@@ -253,6 +344,7 @@
 		};
 		4138370C1CF3989500E2D695 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3AAB33988CA33F826D3923F /* Pods-CaptureFlagProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CaptureFlagProject/Info.plist;
@@ -264,6 +356,7 @@
 		};
 		4138370D1CF3989500E2D695 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38A25D9BA0074F4C647C0A8 /* Pods-CaptureFlagProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CaptureFlagProject/Info.plist;
@@ -292,6 +385,7 @@
 				4138370D1CF3989500E2D695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
